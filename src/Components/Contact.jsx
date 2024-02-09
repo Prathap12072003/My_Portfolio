@@ -10,7 +10,7 @@ const Contact = () => {
     <div id="contact" className="mt-10">
       <section className="bg-slate-900 w-full mx-auto">
         <div className="h-[60vh] lg:h-[55vh] pt-10">
-          <h1 className="flex justify-center text-yellow-400 font-bold text-2xl  md:text-5xl">
+          <h1 className="flex justify-center text-yellow-400 font-bold text-3xl  md:text-5xl">
             Contact me
           </h1>
           <div className=" text-white mt-10 p-0 md:p-5 lg:text-xl ">

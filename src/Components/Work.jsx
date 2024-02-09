@@ -9,7 +9,7 @@ const Work = () => {
     <div id="work" className="min-h-[90vh] text-white  my-10 mb-20">
       <section className="container mx-auto p-5 md:p-10 lg:p-5">
         <div className="w-full flex flex-col lg:flex  items-center justify-center gap-1 my-6">
-          <p className="text-yellow-400 font-bold text-2xl  md:text-5xl mb-10 ">
+          <p className="text-yellow-400 font-bold text-3xl  md:text-5xl md:mb-6 lg:mb-10 ">
             My Works
           </p>
           {/* <p className="text-justify md:text-center my-4 lg:w-10/12">
