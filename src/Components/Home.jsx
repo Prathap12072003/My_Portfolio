@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div id="home" className="min-h-[90vh]  text-white">
+    <div id="home" className="md:h-[80vh] lg:h-[90vh] text-white">
       <section className="container mx-auto p-5 md:p-10 lg:p-5">
         <div className="w-full  md:flex   items-center justify-center md:mt-16 lg:mt-10 xl:mt-0 mx-auto ">
           <div className=" w-full justify-center  lg:justify-start  md:w-1/2  p-5 lg:p-16  ">
@@ -33,7 +33,7 @@ const Home = () => {
             <div className="flex justify-center  text-2xl pt-5 ">
 
             <a className=" hover:text-blue-800" target="_blank" href="https://github.com/Prathap12072003">
-            <FaGithub className="lg:mr-5 mr-2 hover:shadow shadow-gray-400  lg:mx-0 transition duration-100 hover:scale-125"  />
+            <FaGithub className="lg:mr-5 mr-6 hover:shadow shadow-gray-400  lg:mx-0 transition duration-100 hover:scale-125"  />
               </a>
               <a className=" hover:text-blue-800"
                 target="_blank"

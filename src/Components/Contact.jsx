@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <div id="contact" className="mt-10">
       <section className="bg-slate-900 w-full mx-auto">
-        <div className="h-[60vh] lg:h-[55vh] pt-10">
-          <h1 className="flex justify-center text-yellow-400 font-bold text-3xl  md:text-5xl">
+        <div className="h-[53vh] lg:h-[55vh] pt-10">
+          <h1 className="flex justify-center text-yellow-400 font-bold text-3xl  md:text-5xl ">
             Contact me
           </h1>
           <div className=" text-white mt-10 p-0 md:p-5 lg:text-xl ">
@@ -25,7 +25,7 @@ const Contact = () => {
               <span>7824977674</span>
             </p>
             <div className="flex space-x-5  justify-center md:justify-end text-white mt-10 md:mt-[-34px]  text-2xl lg:text-3xl lg:mt-[-55px] lg:mr-6 md:w-1/2 md:ml-auto ">
-              <a className=" hover:text-blue-800  text-blue-800 lg:text-white p-[2px]" target="_blank" href="https://github.com/Prathap12072003">
+              <a className=" hover:text-blue-800   lg:text-white p-[2px]" target="_blank" href="https://github.com/Prathap12072003">
                 <FaGithub className="transition duration-100 hover:scale-125"  />
               </a>
 
@@ -35,7 +35,7 @@ const Contact = () => {
               >
                 <FaInstagram className="transition duration-100 hover:scale-125" />
               </a>
-              <a className=" hover:text-blue-800  text-blue-800 lg:text-white p-[2px]"
+              <a className=" hover:text-blue-800   lg:text-white p-[2px]"
                 target="_blank"
                 href="https://www.linkedin.com/in/prathap-kumar-5114662a7/"
               >

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="min-h-[90vh] text-white  my-10">
+    <div id="about" className="min-h-[70vh] text-white  my-10">
       <section className="container mx-auto p-5 md:p-10 lg:p-5">
         <div className="w-full flex flex-col lg:flex  items-center justify-center gap-1 ">
           <p className="text-yellow-400 font-bold text-3xl  md:text-5xl ">
@@ -24,8 +24,8 @@ const About = () => {
                 <p className="py-1"><span className="font-bold">Databese</span>  : MongoDB,Atles</p>
                 <p className="py-1"><span className="font-bold">Version Controler </span> : Git & GitHub</p>
                 <p className="py-1"><span className="font-bold">Tools</span>: Vistual Studio Code,Rest Api</p>
-              </div>
             </div>
+              </div>
             <div className="w-full md:w-6/12 md:mx-auto lg:w-[30%] p-5  text-center grid rounded-lg  bg-yellow-400 hover:shadow-lg hover:shadow-black transition duration-100 hover:scale-95">
               <p className="my-3 text-3xl font-Poppins underline">Education</p>
               <div className="text-justify text-gray-950   gap-2  ">
