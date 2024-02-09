@@ -1,0 +1,27 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.custom-bg{
+    background: rgb(63,94,251);
+    background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
+}
+.nav-bg{
+    background-image: linear-gradient(to right top, #f2f229, #f2f229, #f2f229, #f2f229, #f2f229);
+}
+.dancing{
+
+    font-family: 'Dancing Script', cursive;
+}
+.kanit{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
