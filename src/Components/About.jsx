@@ -15,7 +15,7 @@ const About = () => {
           <span>I'm particularly proud of the two projects I completed during my training, which are now showcased in my portfolio. These projects not only demonstrate my proficiency in the MERN stack but also highlight my ability to tackle real-world challenges creatively. I'm eager to continue growing as a developer and contribute my expertise to innovative projects. 
             </span>  </p>
           <div className="my-5 grid lg:flex  gap-5 w-full text-black font-semibold  lg:h-[60vh] xl:h-[55vh]   ">
-            <div className="w-full md:w-6/12 md:mx-auto lg:w-[30%] p-5  text-center grid rounded-lg bg-yellow-400  hover:shadow-lg hover:shadow-black transition duration-100 hover:scale-95">
+            <div className="w-full mb-6 md:mb-0 md:w-6/12 md:mx-auto lg:w-[40%] xl:w-[30%] p-5  text-center grid rounded-lg bg-yellow-400  hover:shadow-lg hover:shadow-black hover:-translate-y-3">
               <p className="my-3 text-3xl font-Poppins underline">Tech Skill</p>
               <div className="text-justify text-gray-950   gap-2  ">
                 <p className="py-1"><span className="font-bold">Frontend</span>  : HTML v5,CSS v4,Js ES7,React Js</p>
@@ -26,7 +26,7 @@ const About = () => {
                 <p className="py-1"><span className="font-bold">Tools</span>: Vistual Studio Code,Rest Api</p>
             </div>
               </div>
-            <div className="w-full md:w-6/12 md:mx-auto lg:w-[30%] p-5  text-center grid rounded-lg  bg-yellow-400 hover:shadow-lg hover:shadow-black transition duration-100 hover:scale-95">
+            <div className="w-full md:w-6/12 md:mx-auto lg:w-[40%] xl:w-[30%] p-5  text-center grid rounded-lg  bg-yellow-400 hover:shadow-lg hover:shadow-black hover:-translate-y-3">
               <p className="my-3 text-3xl font-Poppins underline">Education</p>
               <div className="text-justify text-gray-950   gap-2  ">
                 <div  my-1>

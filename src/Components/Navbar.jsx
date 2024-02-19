@@ -16,28 +16,28 @@ const Navbar = () => {
           smooth={true}
           spy={true}
           className=" px-4 py-3">
-            <IoHome className="text-black active:text-yellow-200 hover:text-white"/>
+            <IoHome className="text-black active:text-yellow-200  lg:hover:-translate-y-1"/>
           </Link>
           <Link  to="about" 
           activeClass="active"
           smooth={true}
           spy={true}
           className=" px-4 py-3">
-            <IoPerson   className="text-black    active:text-yellow-200 hover:text-white"/>
+            <IoPerson   className="text-black    active:text-yellow-200  lg:hover:-translate-y-1"/>
           </Link>
           <Link to="work" 
           activeClass="active"
           smooth={true}
           spy={true}
           className=" px-4 py-3">
-            <MdWork  className="text-black  active:text-yellow-200 hover:text-white" />
+            <MdWork  className="text-black  active:text-yellow-200  lg:hover:-translate-y-1" />
           </Link>
           <Link  to='contact' 
           activeClass="active"
           smooth={true}
           spy={true}
           className=" px-4 py-3">
-            <LuContact className="text-black  active:text-yellow-200 hover:text-white "/>
+            <LuContact className="text-black  active:text-yellow-200  lg:hover:-translate-y-1 "/>
           </Link>
           
         </div>

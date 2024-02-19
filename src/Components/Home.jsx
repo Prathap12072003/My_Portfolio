@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "../assets/Picsart_23-12-07_18-39-42-464.png";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+
 // import {fadeIn} from'../variants'
 // import { motion } from "framer-motion";
 // import { TypeAnimation } from "react-type-animation";
@@ -47,7 +48,7 @@ const Home = () => {
           <div className="md:w-1/2 flex ">
           <img
               src={Profile}
-              className=" lg:w-9/12 xl:w-10/12  mx-auto"
+              className=" lg:w-9/12 xl:w-10/12  mx-auto 5"
               alt=""
             />
           </div>
