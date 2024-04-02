@@ -41,7 +41,7 @@ const Home = () => {
               </a>
               <a className=" hover:text-blue-800"
                 target="_blank"
-                href="https://www.linkedin.com/in/prathap-kumar-5114662a7/"
+                href="https://www.linkedin.com/in/prathap1207/"
               >
                 <FaLinkedin className=" hover:shadow shadow-gray-400  lg:mx-0 transition duration-100 hover:scale-125 " />
               </a>

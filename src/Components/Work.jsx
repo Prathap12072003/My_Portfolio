@@ -26,7 +26,7 @@ const Work = () => {
               href="https://weather-predictor.vercel.app/"
               target="_blank"
             >
-              <img src={weathergif} alt="" className="w-48 ml-2 ssm:ml-8 lg:ml-10  mx-auto " />
+              <img src={weathergif} alt="" className="w-48 ml-2 ssm:ml-8 md:ml-10  mx-auto " />
             </a>
             <div className="text-center ">
               <a

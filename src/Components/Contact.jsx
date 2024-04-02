@@ -37,7 +37,7 @@ const Contact = () => {
               </a>
               <a className=" hover:text-blue-800   lg:text-white p-[2px]"
                 target="_blank"
-                href="https://www.linkedin.com/in/prathap-kumar-5114662a7/"
+                href="https://www.linkedin.com/in/prathap1207/"
               >
                 <FaLinkedin className="transition duration-100 hover:scale-125" />
               </a>
