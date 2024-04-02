@@ -23,7 +23,7 @@ const Work = () => {
         <div className="grid md:grid-cols-2 lg:w-10/12 lg:mx-auto xl:grid-cols-3  gap- gap-y-6 mt-10 text-gray-950  ">
           <div className="bg-[#FFCD0C] rounded-lg w-10/12 p-5 mx-auto transition duration-100 hover:scale-105">
             <a
-              href="https://celebrated-faloodeh-9aef87.netlify.app/"
+              href="https://weather-predictor.vercel.app/"
               target="_blank"
             >
               <img src={weathergif} alt="" className="w-48 ml-2 ssm:ml-8 lg:ml-10  mx-auto " />
@@ -32,7 +32,7 @@ const Work = () => {
               <a
                 className="text-xl font-bold  text-slate-800  animate-none hover:animate-pulse"
                 target="_blank"
-                href="https://github.com/Prathap12072003/Weather-API"
+                href="https://github.com/Prathap12072003/Weather-Predictor"
               >
                 view sourcecode
               </a>

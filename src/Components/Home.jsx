@@ -1,5 +1,8 @@
 import React from "react";
 import Profile from "../assets/Picsart_23-12-07_18-39-42-464.png";
+import resume from "../assets/Prathapresume.pdf"
+import Button from '@mui/material/Button';
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -19,15 +22,15 @@ const Home = () => {
               className="text-center  text-lg lg:text-4xl dancing  mx-auto"
             >
              hello im
-              <span className="text-5xl lg:text-5xl mx-1 font-Poppins text-yellow-400 ">
+              <span className="text-5xl lg:text-5xl mx-1 font-DancingScript text-yellow-400 ">
                 Prathap
               </span>
             </p>
             <p className="text-center  text-2xl md:text-4xl lg:text-4xl xl:text-6xl  font-DancingScript ">
-              <span className="">I'm a </span>{" "}
+              <span className="">I'm a </span>
               <span className="text-yellow-400">MERN Stack</span>
               <span className="md:pl-0 ">
-                {" "}
+                
                 Devloper...<span className="text-white">!</span>
               </span>
             </p>
@@ -43,6 +46,13 @@ const Home = () => {
                 <FaLinkedin className=" hover:shadow shadow-gray-400  lg:mx-0 transition duration-100 hover:scale-125 " />
               </a>
               
+            </div>
+            <div className="flex  mt-2">
+             <a href={resume} download="resume.pdf" className="mx-auto ">
+             <Button variant="contained" style={{backgroundColor:"rgb(73, 105, 137)"}} endIcon={<FileDownloadIcon />}>
+  Resume  
+</Button>
+              </a>
             </div>
           </div>
           <div className="md:w-1/2 flex ">

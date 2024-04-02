@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div id="contact" className="mt-10">
       <section className="bg-slate-900 w-full mx-auto">
-        <div className="h-[53vh] lg:h-[55vh] pt-10">
+        <div className="h-[48vh] lg:h-[55vh] pt-10">
           <h1 className="flex justify-center text-yellow-400 font-bold text-3xl  md:text-5xl ">
             Contact me
           </h1>
@@ -42,7 +42,7 @@ const Contact = () => {
                 <FaLinkedin className="transition duration-100 hover:scale-125" />
               </a>
 
-              
+             
             </div>
           </div>
         </div>
